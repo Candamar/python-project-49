@@ -15,9 +15,7 @@ Khvostantsev as the first project in Hexlet course of Python.
 
 ## Installation
 
-````
-make package-install
-```
+`make package-install`
 
 ## Run games
 
