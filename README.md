@@ -15,9 +15,7 @@ Khvostantsev as the first project in Hexlet course of Python.
 
 ## Installation
 
-````
-make package-install
-```
+`make package-install`
 
 ## Run games
 
@@ -25,7 +23,7 @@ make package-install
 2. `brain-calc`
 3. `brain-gcd`
 4. `brain-progression`
-5. `brain-prime'
+5. `brain-prime`
 
 ## Demonstration
 
