@@ -3,13 +3,13 @@ from ..game_engine import game
 
 
 def main():
-    progression_max_start = 100
-    max_step = 10
+    PROGRESSION_MAX_START = 100
+    MAX_STEP = 10
     rules = 'What number is missing in the progression?'
     question_answer_pairs = {}
     for _ in range(3):
-        num = randrange(progression_max_start)
-        step = randrange(max_step)
+        num = randrange(PROGRESSION_MAX_START)
+        step = randrange(MAX_STEP)
         progression = []
         for _ in range(10):
             progression.append(str(num))

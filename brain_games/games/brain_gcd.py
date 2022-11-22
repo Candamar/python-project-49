@@ -12,12 +12,12 @@ def gcd(num1, num2):
 
 
 def main():
-    max_num = 100
+    MAX_NUM = 100
     rules = 'Find the greatest common divisor of given numbers.'
     question_answer_pairs = {}
     for _ in range(3):
-        num1 = randrange(max_num)
-        num2 = randrange(max_num)
+        num1 = randrange(MAX_NUM)
+        num2 = randrange(MAX_NUM)
         question = f'{str(num1)} {str(num2)}'
         answer = gcd(num1, num2)
         question_answer_pairs[question] = str(answer)

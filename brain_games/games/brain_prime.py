@@ -10,11 +10,11 @@ def is_prime(num):
 
 
 def main():
-    max_num = 100
+    MAX_NUM = 100
     rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     question_answer_pairs = {}
     for _ in range(3):
-        num = randrange(max_num)
+        num = randrange(MAX_NUM)
         answer = is_prime(num)
         question = str(num)
         question_answer_pairs[question] = answer

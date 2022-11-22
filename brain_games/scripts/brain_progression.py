@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 
-from ..games_modules.brain_progression import main as brain_progression
+from ..games.brain_progression import main as brain_progression
 
 
 def main():

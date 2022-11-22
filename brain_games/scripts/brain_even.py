@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 
-from ..games_modules.brain_even import main as brain_even
+from ..games.brain_even import main as brain_even
 
 
 def main():

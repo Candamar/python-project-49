@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 
-from ..games_modules.brain_prime import main as brain_prime
+from ..games.brain_prime import main as brain_prime
 
 
 def main():

@@ -4,13 +4,13 @@ from ..game_engine import game
 
 
 def main():
-    max_num = 100
+    MAX_NUM = 100
     rules = 'What is the result of the expression?'
     operators = ('+', '-', '*')
     question_answer_pairs = {}
     for _ in range(3):
-        num1 = randrange(max_num)
-        num2 = randrange(max_num)
+        num1 = randrange(MAX_NUM)
+        num2 = randrange(MAX_NUM)
         operator = choice(operators)
         question = f'{str(num1)} {operator} {str(num2)}'
         answer = (num1 + num2 if operator == '+' else

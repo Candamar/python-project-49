@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 
-from ..games_modules.brain_gcd import main as brain_gcd
+from ..games.brain_gcd import main as brain_gcd
 
 
 def main():
