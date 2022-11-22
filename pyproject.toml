@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "brain_games"}]
 repository = "https://github.com/Candamar/python-project-49"
 classifiers = [
-    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python",
     "Operating System :: OS Independent"
 ]
 
