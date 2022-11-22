@@ -6,10 +6,6 @@ authors = ["Alexey Khvostantsev <ax2303@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 repository = "https://github.com/Candamar/python-project-49"
-classifiers = [
-    "Programming Language :: Python",
-    "Operating System :: OS Independent"
-]
 
 [tool.poetry.dependencies]
 python = "^3.11"
