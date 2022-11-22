@@ -13,8 +13,8 @@ def main():
         num2 = randrange(max_num)
         operator = choice(operators)
         question = f'{str(num1)} {operator} {str(num2)}'
-        answer = (num1 + num2 if operator == '+' else 
-                  num1 - num2 if operator == '-' else 
+        answer = (num1 + num2 if operator == '+' else
+                  num1 - num2 if operator == '-' else
                   num1 * num2)
         question_answer_pairs[question] = str(answer)
     game(rules, question_answer_pairs)
