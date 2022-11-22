@@ -6,4 +6,6 @@ href="https://codeclimate.com/github/Candamar/python-project-49/maintainability"
 src="https://api.codeclimate.com/v1/badges/423ad9563d5df8e29473/maintainability" 
 /></a>
 
-https://asciinema.org/a/dNdpaYiYW41OozIh9s8AHYPzo
+<a href="https://asciinema.org/a/dNdpaYiYW41OozIh9s8AHYPzo" 
+target="_blank"><img 
+src="https://asciinema.org/a/dNdpaYiYW41OozIh9s8AHYPzo.svg" /></a>
