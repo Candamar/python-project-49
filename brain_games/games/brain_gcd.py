@@ -18,7 +18,7 @@ def main():
     for _ in range(3):
         num1 = randrange(MAX_NUM)
         num2 = randrange(MAX_NUM)
-        question = f'{str(num1)} {str(num2)}'
+        question = f'{num1} {num2}'
         answer = gcd(num1, num2)
         question_answer_pairs[question] = str(answer)
     game(rules, question_answer_pairs)
