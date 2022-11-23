@@ -14,9 +14,8 @@ def game(rules, qa_pairs):
             print(f'"{input_answer}" is wrong answer ;(. '
                   f'Correct answer was "{answer}".')
             print(f"Let's try again, {name}!")
-            return False
+            return
     print(f'Congragulations, {name}!')
-    return True
 
 
 def main():
