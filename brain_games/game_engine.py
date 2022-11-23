@@ -15,7 +15,7 @@ def game(rules, qa_pairs):
                   f'Correct answer was "{answer}".')
             print(f"Let's try again, {name}!")
             return
-    print(f'Congragulations, {name}!')
+    print(f'Congratulations, {name}!')
 
 
 def main():
