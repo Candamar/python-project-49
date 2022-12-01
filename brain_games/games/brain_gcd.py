@@ -1,5 +1,4 @@
 from random import randrange
-from ..game_engine import game
 
 
 def gcd(num1, num2):
@@ -11,18 +10,14 @@ def gcd(num1, num2):
     return num1
 
 
-def main():
+def rules():
+    print('Find the greatest common divisor of given numbers.')
+
+
+def get_qa_pair():
     MAX_NUM = 100
-    rules = 'Find the greatest common divisor of given numbers.'
-    question_answer_pairs = {}
-    for _ in range(3):
-        num1 = randrange(MAX_NUM)
-        num2 = randrange(MAX_NUM)
-        question = f'{num1} {num2}'
-        answer = gcd(num1, num2)
-        question_answer_pairs[question] = str(answer)
-    game(rules, question_answer_pairs)
-
-
-if __name__ == '__main__':
-    main()
+    num1 = randrange(MAX_NUM)
+    num2 = randrange(MAX_NUM)
+    question = f'{num1} {num2}'
+    answer = gcd(num1, num2)
+    return question, str(answer)
