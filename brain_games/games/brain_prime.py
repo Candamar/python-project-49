@@ -1,5 +1,8 @@
 from random import randrange
-from ..game_engine import game
+
+
+def rules():
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
 def is_prime(num):
@@ -9,17 +12,7 @@ def is_prime(num):
     return 'yes' if div * div > num else 'no'
 
 
-def main():
+def get_qa_pair():
     MAX_NUM = 100
-    rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    question_answer_pairs = {}
-    for _ in range(3):
-        num = randrange(MAX_NUM)
-        answer = is_prime(num)
-        question = str(num)
-        question_answer_pairs[question] = answer
-    game(rules, question_answer_pairs)
-
-
-if __name__ == '__main__':
-    main()
+    num = randrange(MAX_NUM)
+    return str(num), is_prime(num)
