@@ -15,4 +15,5 @@ def is_prime(num):
 def get_qa_pair():
     MAX_NUM = 100
     num = randrange(MAX_NUM)
-    return str(num), is_prime(num)
+    answer = is_prime(num)
+    return str(num), answer
