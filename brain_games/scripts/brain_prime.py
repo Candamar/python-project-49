@@ -1,11 +1,12 @@
 #! /usr/bin/env python
 
 
-from ..games.brain_prime import main as brain_prime
+from brain_games.games import brain_prime
+from brain_games import game_engine
 
 
 def main():
-    brain_prime()
+    game_engine.main(brain_prime)
 
 
 if __name__ == '__main__':
