@@ -1,17 +1,12 @@
 from random import randrange
-from ..game_engine import game
 
 
-def main():
+def rules():
+    print('Answer "yes" if the number is even, otherwise answer "no".')
+
+
+def get_qa_pair():
     MAX_NUM = 1000
-    rules = 'Answer "yes" if the number is even, otherwise answer "no".'
-    question_answer_pairs = {}
-    for _ in range(3):
-        num = randrange(MAX_NUM)
-        num_is_even = 'yes' if num % 2 == 0 else 'no'
-        question_answer_pairs[num] = num_is_even
-    game(rules, question_answer_pairs)
-
-
-if __name__ == '__main__':
-    main()
+    num = randrange(MAX_NUM)
+    num_is_even = 'yes' if num % 2 == 0 else 'no'
+    return str(num), num_is_even
