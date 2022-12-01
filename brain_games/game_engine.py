@@ -1,11 +1,12 @@
 import prompt
 
 
-def game(rules, qa_pairs):
+def main(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(rules)
-    for (question, answer) in qa_pairs.items():
+    game.rules()
+    for _ in range(3):
+        question, answer = game.get_qa_pair()
         print(f'Question: {question}')
         input_answer = prompt.string('Your answer: ')
         if input_answer == answer:
@@ -16,11 +17,3 @@ def game(rules, qa_pairs):
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
-
-
-def main():
-    pass
-
-
-if __name__ == '__main__':
-    main()
